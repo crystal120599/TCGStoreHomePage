@@ -1,0 +1,181 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.annoucement{
+  background-color: #4db3d2;
+  color:white;
+  text-align: center;
+  font-size: 15px;
+  width: 100%;
+  overflow: hidden;
+}
+.annoucement p{
+  font-style: normal;
+  line-height: 1.6em;
+  text-decoration: underline;
+}
+.logo img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:5%;
+  height:5%;
+}
+.navbar{
+  background-color: #68a6b9;
+  overflow: hidden;
+}
+.navbar a{
+  float:left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color:white;
+}
+.navbar a:hover {
+  background-color: #dae953;
+  color:black;
+}
+#cart{
+  float:right;
+  padding: 14px 16px;
+}
+.center{
+  overflow: hidden;
+  text-align: center;
+  background-image:url('routeimage.png');
+  color: white;
+  padding-bottom: 1%;
+
+}
+button{
+	box-shadow: 0 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#4db3d2;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #3d768a;
+}
+button a{
+  color:#ffffff;
+  text-decoration:none;
+}
+button:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+.promo{
+  border: 1px solid;
+  display: block;
+  background-color: white;
+  margin:1% 0 1% 0;
+}
+.promo h2{
+  text-align:left;
+  padding-left: 1%;
+}
+table{
+  width:100%;
+}
+tr{
+  float: left;
+  margin:2%;
+  width:225px;
+  height: 320px;
+  border: solid;
+
+}
+tr td{
+  display: block;
+  padding: 1%;
+}
+.itemname{
+  color:#68a6b9;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.itemimage img{
+  width:200px;
+  height:200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+.price{
+  color:#4db3d2;
+  text-align: center;
+}
+.backtop{
+  background-color: #4db3d2;
+  overflow: hidden;
+  text-align: center;
+  border-bottom: 1px solid;
+}
+.backtop a{
+  text-decoration: none;
+  color:white;
+}
+.bottominfo{
+  width:100%;
+  height:100%;
+  background-color: #68a6b9;
+  overflow: hidden;
+}
+.footercontact{
+  margin: 1%;
+  border: solid;
+  width: 15%;
+  float: left;
+  padding: 20px;
+}
+.footersupport{
+  border: solid;
+  width: 15%;
+  padding: 20px;
+  margin: 1%;
+  float:left;
+}
+.footersupport a{
+
+}
+.social{
+  overflow: hidden;
+  margin: 1%;
+  border: solid;
+  clear: left;
+  padding: 20px;
+}
+.social a{
+  float:left;
+  background-color: #4db3d2;
+  padding: 14px 16px;
+  color:white;
+  border-radius:50%;
+  border:1px solid;
+  border-color: black;
+}
+.social a:hover {
+  background-color: #dae953;
+}
+hr{
+  overflow: visible;
+  border-top: 1px solid black;
+}
+.legalinfo{
+  padding-left:10px;
+}
